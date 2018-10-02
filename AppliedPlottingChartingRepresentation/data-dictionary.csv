@@ -1,0 +1,25 @@
+"column_name","description","data_type","levels"
+"age_cat","Age category","TEXT","total; 15-44; 45-54; 55-64; 65-74; 75+"
+"cancer","Cancer","TEXT","all cancers; oral cavity and pharynx; esophagus; stomach; colon and rectum; liver and intrahepatic bile duct; pancreas; larynx; lung and bronchus; melanoma of the skin; breast; cervix uteri; corpus and uterus, NOS; ovary; prostate; testis; urinary bladder; kidney and renal pelvis; brain and other nervous system; thyroid; non-Hodgkin lymphoma; Hodgkin lymphoma; myeloma; leukemia; all other sites"
+"county","County","TEXT","Pennsylvania; Adams; Allegheny; Armstrong; Beaver; Bedford; Berks; Blair; Bradford; Bucks; Butler; Cambria; Cameron; Carbon; Centre; Chester; Clarion; Clearfield; Clinton; Columbia; Crawford; Cumberland; Dauphin; Delaware; Elk; Erie; Fayette; Forest; Franklin; Fulton; Greene; Huntingdon; Indiana; Jefferson; Juniata; Lackawanna; Lancaster; Lawrence; Lebanon; Lehigh; Luzerne; Lycoming; McKean; Mercer; Mifflin; Monroe; Montgomery; Montour; Northampton; Northumberland; Perry; Philadelphia; Pike; Potter; Schuylkill; Snyder; Somerset; Sullivan; Susquehanna; Tioga; Union; Venango; Warren; Washington; Wayne; Westmoreland; Wyoming; York"
+"health_district","Health district","TEXT","Pennsylvania; South Central; Southwest; Southeast; North Central; Northwest; Northeast"
+"idgrp","Group ID","INTEGER",
+"n_risk_init","Initial number at risk","INTEGER",
+"poverty","Poverty level","TEXT","total; 0% to < 5%; 5% to < 10%; 10% to < 20%; 20% to 100%"
+"primary_payer_group","Primary payer at diagnosis","TEXT","total; insured; insured, NOS; Medicaid; uninsured"
+"race","Race","TEXT","total; white; black; Asian/PI; other"
+"sex","Sex","TEXT","total; male; female"
+"stage_group","Stage at diagnosis","TEXT","total; in situ; localized; regional; distant; unstaged;early;late"
+"year_dx","Year of diagnosis","INTEGER",
+"year_dx_range","Period of diagnosis","TEXT",
+"survival","Net survival","REAL",
+"lower_bound","Net survival lower bound","REAL",
+"upper_bound","Net survival upper bound","REAL",
+"cum_hazard","Cumulative net hazard","REAL",
+"cum_hazard_std_err","Cumulative net hazard standard error","REAL",
+"ch_lower_bound","Cumulative net hazard lower bound","REAL",
+"ch_upper_bound","Cumulative net hazard upper bound","REAL",
+"time_in_years","Years since diagnosis","INTEGER",
+"premature_deaths","Expected number of premature deaths within five years of diagnosis","REAL",
+"count","Number of observed diagnoses","INTEGER",
+"state_significance","Significant difference in net survival compared to state","TEXT","TRUE;FALSE"
